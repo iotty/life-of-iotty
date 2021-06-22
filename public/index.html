@@ -28,11 +28,13 @@
   </head>
   <body>
     <div class="bg-black flex justify-center items-center overflow-hidden">
-      <img
-        class="w-auto h-full sm:w-full sm:h-96 object-cover mb-4"
-        src="build/images/ava-with-line-opa30.png"
-        alt=""
-      />
+      <picture class="flex items-center mb-4 h-full w-auto sm:h-96 sm:w-full object-cover overflow-hidden">
+        <source srcset="build/images/ava-with-line-opa30.webp" type="image/webp">
+        <source srcset="build/images/ava-with-line-opa30.png" type="image/png">
+        <img src="build/images/ava-with-line-opa30.png"
+            alt="Rihot Avatar"
+          />
+       </picture>
       <p
         class="
           bg-black
