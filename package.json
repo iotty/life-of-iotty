@@ -1,0 +1,28 @@
+{
+  "name": "life-of-iotty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotty/life-of-iotty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iotty/life-of-iotty/issues"
+  },
+  "homepage": "https://github.com/iotty/life-of-iotty#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.2"
+  },
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
