@@ -28,13 +28,29 @@
   </head>
   <body>
     <div class="bg-black flex justify-center items-center overflow-hidden">
-      <picture class="flex items-center mb-4 h-full w-auto sm:h-96 sm:w-full object-cover overflow-hidden">
-        <source srcset="build/images/ava-with-line-opa30.webp" type="image/webp">
-        <source srcset="build/images/ava-with-line-opa30.png" type="image/png">
-        <img src="build/images/ava-with-line-opa30.png"
-            alt="Rihot Avatar"
-          />
-       </picture>
+      <picture
+        class="
+          flex
+          items-center
+          mb-4
+          h-full
+          w-auto
+          sm:h-96
+          sm:w-full
+          object-cover
+          overflow-hidden
+        "
+      >
+        <source
+          srcset="build/images/ava-with-line-opa30.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="build/images/ava-with-line-opa30.png"
+          type="image/png"
+        />
+        <img src="build/images/ava-with-line-opa30.png" alt="Rihot Avatar" />
+      </picture>
       <p
         class="
           bg-black
@@ -122,8 +138,7 @@
             text-lg text-white
             border
             outline-none
-            focus:ring-2
-            focus:ring-gray-800
+            focus:ring-2 focus:ring-gray-800
             sm:
             px-8
             hover:bg-white
@@ -142,8 +157,7 @@
             px-8
             sm:ml-6
             outline-none
-            focus:ring-2
-            focus:ring-gray-800
+            focus:ring-2 focus:ring-gray-800
             border border-gray-200
             hover:border-gray-700
             rounded-md
@@ -156,11 +170,10 @@
       <!-- Text introduction -->
       <div
         class="
-          max-w-xs
           sm:max-w-screen-sm
           md:max-w-screen-md
           lg:max-w-screen-lg
-          lg:px-3
+          px-4
           mx-auto
         "
       >
@@ -172,15 +185,136 @@
           </p>
         </div>
         <!-- Text Journey -->
-        <div class="mt-32 mb-16 text-gray-800 font-medium text-center tracking-wider flex flex-col items-center justify-center">
-          <svg viewBox="0 0 1000 1000" fill="none" class="w-16 h-16 fill-current text-gray-900 opacity-40 mb-2" xmlns="http://www.w3.org/2000/svg">
-            <rect x="182" y="81" width="636" height="837" rx="300" fill="currentColor"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M422 410C477.228 410 522 365.228 522 310C522 254.772 477.228 210 422 210C366.772 210 322 254.772 322 310C322 365.228 366.772 410 422 410ZM677.799 343L677.8 342.863C677.8 342.776 677.8 342.688 677.8 342.6C677.8 280.965 627.835 231 566.2 231L566.2 343H566V677H566.201C566.2 677.073 566.2 677.146 566.2 677.218L566.2 677.4C566.2 739.035 616.165 789 677.8 789V677H678V343H677.799Z" fill="white"/>
-            </svg>         
+        <div
+          class="
+            mt-32
+            mb-16
+            text-gray-800
+            font-medium
+            text-center
+            tracking-wider
+            flex flex-col
+            items-center
+            justify-center
+          "
+        >
+          <svg
+            viewBox="0 0 1000 1000"
+            fill="none"
+            class="w-16 h-16 fill-current text-gray-900 opacity-40 mb-2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="182"
+              y="81"
+              width="636"
+              height="837"
+              rx="300"
+              fill="currentColor"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M422 410C477.228 410 522 365.228 522 310C522 254.772 477.228 210 422 210C366.772 210 322 254.772 322 310C322 365.228 366.772 410 422 410ZM677.799 343L677.8 342.863C677.8 342.776 677.8 342.688 677.8 342.6C677.8 280.965 627.835 231 566.2 231L566.2 343H566V677H566.201C566.2 677.073 566.2 677.146 566.2 677.218L566.2 677.4C566.2 739.035 616.165 789 677.8 789V677H678V343H677.799Z"
+              fill="white"
+            />
+          </svg>
           <p class="text-gray-600">A life of Iotty, journey bitter and sour.</p>
         </div>
       </div>
     </div>
+    <!-- Section One -->
+    <div
+      class="
+        px-4
+        sm:max-w-screen-sm
+        md:max-w-screen-md
+        lg:max-w-screen-lg
+        mx-auto
+      "
+    >
+      <div class="text-center flex flex-col justify-center items-center">
+        <div
+          style="width: 2px"
+          class="h-24 bg-gradient-to-b from-transparent to-yellow-600"
+        ></div>
+        <div
+          class="
+            bg-gradient-to-br
+            from-yellow-400
+            to-red-600
+            w-10
+            h-10
+            rounded-full
+            text-white
+            flex
+            justify-center
+            items-center
+          "
+        >
+          <p class="text-2xl font-medium">1</p>
+        </div>
+        <h3
+          class="
+            text-4xl
+            my-4
+            font-bold
+            tracking-tighter
+            bg-gradient-to-br
+            from-yellow-400
+            to-red-600
+            text-transparent
+            bg-clip-text
+          "
+        >
+          Design
+        </h3>
+      </div>
+    </div>
+
+    <!-- Section One Supplement -->
+    <div
+      class="
+        sm:max-w-screen-sm
+        md:max-w-screen-md
+        lg:max-w-screen-lg
+        px-4
+        mx-auto
+      "
+    >
+      <div class="text-center mx-auto my-12">
+        <h4 class="text-5xl font-bold tracking-tight">
+          Fell in
+          <span class="inline-block"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 text-red-600"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                clip-rule="evenodd"
+              /></svg></span>
+          with design.
+        </h4>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12 text-gray-700">
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+          soluta nobis, officia delectus suscipit esse atque optio maxime
+          laboriosam fugiat!
+        </p>
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+          architecto iste dolore est eaque delectus vitae sunt perferendis
+          quaerat. Doloremque!
+        </p>
+      </div>
+    </div>
+    
     <!-- Footer -->
     <div class="bg-gray-50 py-10 border-t border-gray-200">
       <div
