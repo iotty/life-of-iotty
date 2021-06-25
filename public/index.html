@@ -377,7 +377,7 @@
         >
           <div class="text-center mx-auto my-12">
             <h4 class="text-5xl font-bold tracking-tight">
-              Shutter fast, pushed button.
+              Every picture do tell a story.
             </h4>
           </div>
             <p class="text-gray-700 text-lg">
@@ -391,16 +391,29 @@
           <div class="px-3 lg:px-0">
             <div class="mt-12 lg:max-w-screen-lg px-8 py-16 bg-white mx-auto rounded-lg border-2 border-gray-200 shadow-lg">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <img class="w-full object-cover mx-auto rounded-md" src="build/images/iotty-people-market-@1x.png" alt="">
-                              <div>
-                    <span class="bg-green-100 inline-block mb-2 text-green-900 text-sm py-2 px-3 rounded-full font-semibold"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <picture class="w-full max-h-96 sm:max-h-full overflow-hidden object-cover mx-auto rounded-md">
+                      <source srcset="build/images/iotty-people-market-@1x.webp 1x, iotty-people-market-@2x.webp 2x" type="image/webp">
+                      <source srcset="build/images/iotty-people-market-@1x.png 1x, iotty-people-market-@2x.png 2x" type="image/png">
+                      <img src="build/images/iotty-people-market-@1x.png" alt="man in traditional market">
+                    </picture>
+                  
+
+                              <div class="text-left">
+                    <span class="bg-blue-100 inline-block mb-4 text-blue-900 text-sm py-2 px-3 rounded-full font-medium"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg> Feb 22nd 2020</span>
-                                <h3 class="text-gray-900 inline-block mb-4 font-bold text-4xl tracking-tight">People market the best place.</h3>
-                  <p class="mt-4 text-gray-600 text-lg">This photo was taken at people market at my city, Cilegon. The people market or more known as traditional market was named kelapa (means coconut). I don't really know the story but the man in the photos was peeling its coconut skin.</p>
-                              </div>
+                    </svg> Jul 27th 2019</span>
+                                <h3 class="text-gray-800 inline-block font-bold text-4xl tracking-tight">Sincerity and tenacity, in all doing.</h3>
+                  <p class="mt-4 text-gray-600 text-lg">This photo was taken at people market at my city, Cilegon. The people market or more known as traditional market was named 'kelapa' (means coconut). This picture depict the man in his small store, manually peeling the coconut before being processed by the machine, for every order from customer.</p>
+                <a href="#" class="text-red-600 font-bold text-lg mt-12 inline-block hover:text-red-400">See all photo stories 
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </a>              
                 </div>
-            </div>
+                </div>
+              </div>
+              <!-- Spacing -->
+              <div class="h-24"></div>
           </div>
     </div>
    
